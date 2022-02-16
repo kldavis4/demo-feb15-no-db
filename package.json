@@ -3,10 +3,10 @@
   "version": "0.2.7",
   "private": true,
   "scripts": {
-    "dev": "yarn tinacms server:start -c \"next dev\" --experimentalData",
-    "dev-data": "yarn tinacms server:start -c \"next dev\" --experimentalData",
-    "build": "yarn tinacms server:start -c \"next build\" --experimentalData",
-    "start": "yarn tinacms server:start -c \"next start\" --experimentalData"
+    "dev": "yarn tinacms server:start -c \"next dev\"",
+    "dev-data": "yarn tinacms server:start -c \"next dev\"",
+    "build": "yarn tinacms server:start -c \"next build\"",
+    "start": "yarn tinacms server:start -c \"next start\""
   },
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",
